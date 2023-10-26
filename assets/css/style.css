@@ -130,3 +130,11 @@ footer {
         /* Push main content down to accomodate larger header */
         margin-top: 79px;
     }
+}
+
+    /* Hover effect on laptops and upwards (992px and up) */
+    @media screen and (min-width: 992px) {
+        #menu a:hover {
+            border-bottom: 1px solid #353535;
+        }
+}
