@@ -79,7 +79,7 @@ nav {
 }
 
 .nav-toggle-label {
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 /* Main Content */
@@ -87,13 +87,6 @@ main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
-}
-
-/* --Hero section --*/
-#hero {
-    height: 600px;
-    width: 100%;
-    background: url("../images/coffee-belt.jpg") no-repeat center center/cover;
 }
 
 /* Footer */
@@ -135,10 +128,13 @@ main {
         display: none;
     }
 
-    #logo {
-        font-size: 280%;
-        line-height: 75px;
-        margin: 0 0.5rem;
+    img {
+        padding-top: 5px;
+    }
+
+    .title {
+        font-size: 800%;
+        padding-left: 90px;
     }
 
     /* Main content */
