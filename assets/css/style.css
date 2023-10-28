@@ -20,26 +20,22 @@ body {
 
 /* Header */
 header {
-    background-color: #ffffff;
+    background-color: #353535;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #353535;
+    box-shadow: 0 2px 2px #515353;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-}
-header a {
-    text-decoration: none;
-    color: inherit;
 }
 
 h1 {
     font-family: 'Mclaren', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #353535;
+    color: blanchedalmond;
     font-size: 30px;
 }
 
@@ -47,10 +43,12 @@ h1 {
     font-size: 110%;
     letter-spacing: 3px;
     list-style-type: none;
+    background-color: #353535;
 }
 
 #menu > li {
     margin-bottom: 1em;
+
 }
 
 .active {
@@ -63,7 +61,6 @@ nav {
     background-color: #ffffff;
     width: 100%;
     left: 0;
-    padding: 0 1rem;
     box-shadow: 0 2px 2px #353535;
     display: none;
     top: 100%;
@@ -80,6 +77,7 @@ nav {
 
 .nav-toggle-label {
     font-size: 1rem;
+    color: blanchedalmond;
 }
 
 /* Main Content */
@@ -89,7 +87,16 @@ main {
     margin-top: 47px;
 }
 
+#menu > li {
+    padding-left: 1rem;
+    color: blanchedalmond;
+}
+
 /* Footer */
+footer {
+    background-color: #353535;
+}
+
 #social-networks {
     text-align: center;
     padding: 20px 0;
@@ -101,7 +108,7 @@ main {
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: #353535;
+    color: blanchedalmond;
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -112,14 +119,13 @@ main {
         display: block;
         position: relative;
         box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
+        width: 100%;
     }
 
     #menu {
         display: flex;
     }
-    
+
     #menu > li {
         padding-left: 1rem;
     }
@@ -129,12 +135,12 @@ main {
     }
 
     img {
-        padding-top: 5px;
+        padding-top: 1px;
     }
 
     .title {
         font-size: 800%;
-        padding-left: 90px;
+        padding-left: 1rem;
     }
 
     /* Main content */
@@ -147,6 +153,6 @@ main {
     /* Hover effect on laptops and upwards (992px and up) */
     @media screen and (min-width: 992px) {
         #menu a:hover {
-            border-bottom: 1px solid #353535;
+            border-bottom: 1px solid blanchedalmond;
         }
 }
