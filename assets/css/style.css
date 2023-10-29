@@ -92,6 +92,32 @@ main {
     color: blanchedalmond;
 }
 
+#regions {
+    padding-bottom: 1rem;
+}
+
+#robusta-arabica {
+    padding: 1rem 0;
+}
+
+#arabica {
+    padding: 1rem 0;
+}
+
+#robusta {
+    padding: 1rem 0;
+}
+
+#sources {
+    padding: 1rem 0;
+    font-style: italic;
+}
+
+#images {
+    padding: 1rem 0;
+    font-style: italic;
+}
+
 /* Footer */
 footer {
     background-color: #353535;
