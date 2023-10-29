@@ -92,13 +92,21 @@ main {
     margin-top: 47px;
 }
 
-#menu > li {
-    padding-left: 1rem;
-    color: blanchedalmond;
+main {
+    padding: 10px;
+    font-size: 10px;
+}
+
+#menu {
+    padding: 5px;
 }
 
 #regions {
     padding-bottom: 1rem;
+}
+
+#countries {
+    padding-left: 1rem;
 }
 
 #robusta-arabica {
@@ -119,9 +127,17 @@ main {
     font-style: italic;
 }
 
+.sources {
+    padding-left: 1rem;
+}
+
 #images {
     padding: 1rem 0;
     font-style: italic;
+}
+
+.images {
+    padding-left: 1rem;
 }
 
 /* latin america */
