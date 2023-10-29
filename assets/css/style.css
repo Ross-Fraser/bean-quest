@@ -31,12 +31,17 @@ header {
     align-items: baseline;
 }
 
+.logo {
+    padding-top: 8px;
+}
+
 h1 {
     font-family: 'Mclaren', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
     color: blanchedalmond;
-    font-size: 30px;
+    font-size: 25px;
+    padding-bottom: 2px;
 }
 
 #menu {
@@ -108,6 +113,7 @@ main {
     padding: 1rem 0;
 }
 
+/* resources */
 #sources {
     padding: 1rem 0;
     font-style: italic;
@@ -116,6 +122,69 @@ main {
 #images {
     padding: 1rem 0;
     font-style: italic;
+}
+
+/* latin america */
+#america {
+    padding-bottom: 1rem;
+}
+
+#brazil {
+    padding: 1rem 0;
+}
+
+#columbia {
+    padding: 1rem 0;
+}
+
+#costa {
+    padding: 1rem 0;
+}
+
+#mexico {
+    padding: 1rem 0;
+}
+
+/* Africa */
+#africa {
+    padding-bottom: 1rem;
+}
+
+#ethiopia {
+    padding: 1rem 0;
+}
+
+#kenya {
+    padding: 1rem 0;
+}
+
+#rwanda {
+    padding: 1rem 0;
+}
+
+#tanzania {
+    padding: 1rem 0;
+}
+
+/* Asia */ 
+#asia {
+    padding-bottom: 1rem;
+}
+
+#india {
+    padding: 1rem 0;
+}
+
+#indonesia {
+    padding: 1rem 0;
+}
+
+#malaysia {
+    padding: 1rem 0;
+}
+
+#papua {
+    padding: 1rem 0;
 }
 
 /* Footer */
@@ -150,6 +219,7 @@ footer {
 
     #menu {
         display: flex;
+        align-items: right;
     }
 
     #menu > li {
