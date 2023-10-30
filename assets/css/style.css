@@ -121,7 +121,7 @@ main {
     padding: 1rem 0;
 }
 
-/* resources */
+/* Resources */
 #sources {
     padding: 1rem 0;
     font-style: italic;
@@ -140,7 +140,7 @@ main {
     padding-left: 1rem;
 }
 
-/* latin america */
+/* Latin America */
 #america {
     padding-bottom: 1rem;
 }
@@ -251,8 +251,9 @@ footer {
     }
 
     .title {
-        font-size: 800%;
-        padding-left: 1rem;
+        font-size: 100%;
+        padding-left: 2rem;
+        width: 80%;
     }
 
     /* Main content */
@@ -266,5 +267,10 @@ footer {
     @media screen and (min-width: 992px) {
         #menu a:hover {
             border-bottom: 1px solid blanchedalmond;
+        }
+
+        /* Footer color change */
+        .fa-brands:hover {
+            color: blue;
         }
 }
