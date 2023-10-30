@@ -1,39 +1,51 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+Bean Ques
 
-Welcome,
+Bean Quest is a website dedicated to the exploration and celebration of the coffee belt regions around the world. If you're passionate about coffee, its origins, and the diverse cultures and landscapes that contribute to the coffee you love, you're in the right place!
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Table of Contents
+About Bean Quest
+Features
+Getting Started
+Usage
+Contributing
+License
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+About Bean Quest
+Coffee is more than just a beverage; it's a journey that spans continents, climates, and cultures. Bean Quest seeks to connect coffee enthusiasts with the fascinating world of coffee production by offering in-depth information, beautiful imagery about coffee belt regions.
 
-## Codeanywhere Reminders
+Our website is your passport to the coffee belt regions, providing a rich, multimedia experience that educates, inspires, and entertains. Discover the landscapes, and flavors that make coffee from each region unique.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+Key Objectives:
+Educate: Bean Quest aims to educate visitors about the coffee belt regions, the coffee-making process, and the unique qualities of coffee from each region.
 
-`python3 -m http.server`
+Inspire: We want to inspire coffee lovers to explore the world of coffee beyond their cup and appreciate the cultural and environmental aspects of coffee production.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+Entertain: We provide engaging images that make learning about coffee regions an enjoyable experience.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+Features
+Explore Coffee Belt Regions
+Interactive Map: Navigate the coffee belt with an interactive map that highlights key coffee-producing regions.
 
-`http_server`
+Getting Started
+Prerequisites
+A modern web browser (Chrome, Firefox, Safari, or Edge recommended).
+An internet connection to access the website.
+Installation
+Bean Quest is a website, so there's no installation required. Simply visit our website at ross.fraser.github.io/bean-quest/index.html to start your coffee adventure.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Usage
+Visit ross-fraser.github.io/bean-quest/index.html
+Explore the interactive map or browse through the coffee belt region profiles.
+Read articles and stories to expand your coffee knowledge.
+Subscribe to our newsletter to stay updated with the latest coffee content.
+Contributing
+We welcome contributions from coffee enthusiasts, writers, photographers, and anyone passionate about the coffee world. If you'd like to contribute, please check out our Contributing Guidelines.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+License
+This project is licensed under the Creative Commons Attribution 4.0 International License. You are free to:
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+Share: Copy and redistribute the material in any medium or format.
+Adapt: Remix, transform, and build upon the material for any purpose, even commercially.
+However, you must provide appropriate attribution, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. See the License for more details.
 
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+Thank you for exploring Bean Quest and embarking on a journey through the world of coffee. We hope you enjoy your experience and gain a deeper appreciation for the origins of your favorite brew.
