@@ -1,4 +1,4 @@
-Bean Ques
+Bean Quest
 
 Bean Quest is a website dedicated to the exploration and celebration of the coffee belt regions around the world. If you're passionate about coffee, its origins, and the diverse cultures and landscapes that contribute to the coffee you love, you're in the right place!
 

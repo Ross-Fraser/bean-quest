@@ -93,6 +93,11 @@ main {
     margin-top: 47px;
 }
 
+#coffee-belt {
+    height: 600px;
+    width: 100%;
+}
+
 main {
     padding: 10px;
     font-size: 10px;
@@ -257,6 +262,14 @@ footer {
     main {
         /* Push main content down to accomodate larger header */
         margin-top: 79px;
+    }
+
+    main {
+        font-size: 10px;
+    }
+
+    #logo {
+        max-height: 10%;
     }
 }
 
