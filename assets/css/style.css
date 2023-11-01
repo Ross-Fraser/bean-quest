@@ -95,7 +95,7 @@ main {
 }
 
 #coffee-belt>img {
-    height: 593px;
+    height: 383px;
     width: 100%;
 }
 
@@ -149,14 +149,14 @@ footer {
 }
 
 #social-networks i {
-    font-size: 160%;
+    font-size: 20px;
     padding: 5%;
     color: white;
     text-align: justify;
 }
 
-/* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {
+/* Media query: tablets (768px) */
+@media only screen and (min-width: 768px) {
 
     /* Header */
     nav {
@@ -196,11 +196,55 @@ footer {
     }
 
     main {
-        font-size: 10px;
+        font-size: 15px;
     }
 
-    #logo {
-        max-height: 10%;
+    #coffee-belt>img {
+    height: 452px;
+    width: 100%;
+    }
+
+    /* Footer */
+    #social-networks i {
+    font-size: 32px;
+    }
+}
+
+/* Media query: laptops (992px) */
+@media only screen and (min-width: 992px) {
+
+    /* Main content */
+    main {
+        font-size: 15px;
+    }
+
+    #coffee-belt>img {
+        height: 519px;
+        width: 100%;
+    }
+
+    /* Footer */
+    #social-networks i {
+        font-size: 48px;
+    }
+}
+
+/* Media query: desktops (1200px) */
+@media only screen and (min-width: 1200px) {
+
+    /* Main content */
+    main {
+        font-size: 18px;
+    }
+
+    #coffee-belt>img {
+        height: 325px;
+        width: 100%;
+    }
+
+    /* Footer */
+    #social-networks i {
+        font-size: 35px;
     }
 }
 
@@ -208,10 +252,5 @@ footer {
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid white;
-    }
-
-    /* Footer color change */
-    .fa-brands:hover {
-        color: blue;
     }
 }
