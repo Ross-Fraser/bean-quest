@@ -44,23 +44,29 @@ h1 {
     padding-bottom: 2px;
 }
 
-#menu {
+.menu {
     font-size: 110%;
     letter-spacing: 3px;
     list-style-type: none;
     background-color: #353535;
 }
 
-#menu i {
+.menu li a {
     margin-bottom: 1em;
+    text-decoration: none;
     color: white;
-
 }
 
-.active {
+/* .active {
     border-bottom: 1px solid #353535;
-    color: white;
-}
+    color: lightblue;
+} */
+
+/* Style for selected/active menu item
+nav a:active,
+nav a:focus {
+    color: lightblue;
+} */
 
 /* Navbar styles with dropdown toggle */
 nav {
@@ -94,26 +100,17 @@ main {
     margin-top: 47px;
 }
 
-#coffee-belt>img {
-    height: 383px;
-    width: 100%;
-}
-
-.regions>img {
-    height: 383px;
-    width: 100%;
-}
-
 main {
     padding: 10px;
     font-size: 12px;
 }
 
-.regions {
-    padding-bottom: 1rem;
+.section-image>img {
+    height: 383px;
+    width: 100%;
 }
 
-.region {
+.regions {
     padding-bottom: 1rem;
 }
 
@@ -135,7 +132,7 @@ main {
 
 /* Resources */
 .sources {
-    padding: 1rem 0;
+    padding: 1rem 1rem;
     font-style: italic;
     font-size: 11px;
 }
@@ -175,13 +172,15 @@ footer {
         width: 100%;
     }
 
-    #menu {
+    .menu {
         display: flex;
         align-items: flex-end;
     }
 
-    #menu>li {
+    .menu li a {
         padding-left: 1rem;
+        text-decoration: none;
+        color: white;
     }
 
     .nav-toggle-label {
@@ -236,6 +235,17 @@ footer {
         font-size: 15px;
     }
 
+    .menu {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .menu li a {
+        padding-left: 1rem;
+        text-decoration: none;
+        color: white;
+    }
+
     #coffee-belt>img {
         height: 519px;
         width: 100%;
@@ -264,6 +274,16 @@ footer {
         font-size: 18px;
     }
 
+    .menu {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .menu li a {
+        text-decoration: none;
+        color: white;
+    }
+
     /* Resources */
     .sources {
         font-size: 17px;
@@ -286,7 +306,7 @@ footer {
 
 /* Hover effect on laptops and upwards (992px and up) */
 @media screen and (min-width: 992px) {
-    #menu a:hover {
+    .menu li a:hover {
         border-bottom: 1px solid white;
     }
 }
