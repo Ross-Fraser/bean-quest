@@ -175,12 +175,6 @@ footer {
         width: 80%;
     }
 
-    /* Main content */
-    /* main {
-        Push main content down to accomodate larger header
-        margin-top: 79px;
-    } */
-
     main {
         font-size: 15px;
     }
@@ -188,15 +182,6 @@ footer {
     #coffee-belt>img {
         height: 452px;
         width: 100%;
-    }
-
-    /* Resources */
-    .sources {
-        font-size: 14px;
-    }
-
-    .source-list {
-        font-size: 14px;
     }
 
     /* Footer */
@@ -207,6 +192,10 @@ footer {
 
 /* Media query: laptops (992px) */
 @media only screen and (min-width: 992px) {
+
+    .nav-toggle-label {
+        display: none;
+    }
 
     /* Main content */
     main {
@@ -229,15 +218,6 @@ footer {
         width: 100%;
     }
 
-    /* Resources */
-    .sources {
-        font-size: 14px;
-    }
-
-    .source-list {
-        font-size: 14px;
-    }
-
     /* Footer */
     #social-networks i {
         font-size: 48px;
@@ -246,6 +226,10 @@ footer {
 
 /* Media query: desktops (1200px) */
 @media only screen and (min-width: 1200px) {
+
+    .nav-toggle-label {
+        display: none;
+    }
 
     /* Main content */
     main {
@@ -260,15 +244,6 @@ footer {
     .menu li a {
         text-decoration: none;
         color: white;
-    }
-
-    /* Resources */
-    .sources {
-        font-size: 17px;
-    }
-
-    .source-list {
-        font-size: 17px;
     }
 
     #coffee-belt>img {
