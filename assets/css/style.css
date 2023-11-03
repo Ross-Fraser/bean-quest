@@ -22,6 +22,7 @@ body {
 header {
     background-color: #353535;
     padding: 0 1rem;
+    position: absolute;
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #515353;
@@ -56,26 +57,16 @@ h1 {
     color: white;
 }
 
-/* .active {
-    border-bottom: 1px solid #353535;
-    color: lightblue;
-} */
-
-/* Style for selected/active menu item
-nav a:active,
-nav a:focus {
-    color: lightblue;
-} */
-
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
+    background-color: #ffffff;
     width: 100%;
     left: 0;
-    box-shadow: 0 2px 2px #353535;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
-    color: white;
 }
 
 /* Nav toggle */
